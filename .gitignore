@@ -1,0 +1,8 @@
+/MonstrumMountFix/bin/*
+/MonstrumDPMountFix/bin/*
+/MonstrumMountFix/obj/*
+/MonstrumDPMountFix/obj/*
+/.vs/*
+!/MonstrumMountFix/bin/Debug/net472/MonstrumMountFix.dll
+!/MonstrumDPMountFix/bin/Debug/net472/MonstrumDPMountFix.dll
+

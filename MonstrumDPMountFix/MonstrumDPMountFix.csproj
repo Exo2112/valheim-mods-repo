@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>MonstrumDPMountFix</AssemblyName>
+    <RootNamespace>MonstrumDPMountFix</RootNamespace>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JotunnLib" Version="2.24.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Assure-toi que les chemins pointent vers tes assemblies BepInEx et Harmony -->
+    <Reference Include="BepInEx">
+      <HintPath>C:\Users\Exo\Documents\Valheim Evolved\Valheim 0.220.5\Valheim\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Users\Exo\Documents\Valheim Evolved\Valheim 0.220.5\Valheim\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Users\Exo\Documents\Valheim Evolved\Valheim 0.220.5\Valheim\Valheim_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Users\Exo\Documents\Valheim Evolved\Valheim 0.220.5\Valheim\Valheim_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="assembly_valheim_publicized">
+      <HintPath>C:\Users\Exo\Documents\Valheim Evolved\Valheim 0.220.5\Valheim\valheim_Data\Managed\publicized_assemblies\assembly_valheim_publicized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
