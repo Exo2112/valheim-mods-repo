@@ -9,7 +9,7 @@ This repository provides two lightweight BepInEx plugins that fix the automatic 
 
 **Installation:**
 1. Drop `MonstrumMountFix.dll` into `Valheim/BepInEx/plugins/`.
-2. Make sure the core **Monstrum** mod is installed and active.
+2. Make sure the core **Monstrum** mod is installed.
 3. Launch Valheim; you will no longer dismount when jumping.
 
 ---
@@ -19,7 +19,7 @@ This repository provides two lightweight BepInEx plugins that fix the automatic 
 
 **Installation:**
 1. Drop `MonstrumDPMountFix.dll` into `Valheim/BepInEx/plugins/`.
-2. Ensure **Monstrum.DeepNorth.dll** is installed and active.
+2. Ensure **MonstrumDeepNorth** is installed.
 3. Launch Valheim; DeepNorth mounts will no longer dismount on jump.
 
 ---
